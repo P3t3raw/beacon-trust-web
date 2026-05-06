@@ -40,6 +40,7 @@ import kenyaWildlife from "../assets/kenya-wildlife-1.jpg";
 import cbdkisumu1 from "../assets/cbdkisumu1.jpg";
 import chaberahbay from "../assets/chaberahbay.jpg";
 import nyawarakisian1 from "../assets/nyawarakisian1.jpg";
+import Ojolakisian1 from "../assets/Ojolakisian1.jpg"; 
 
 const OngoingProjects = () => {
   useSEO({
