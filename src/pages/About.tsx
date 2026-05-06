@@ -74,20 +74,21 @@ const About = () => {
             <div>
               <h2 className="text-3xl font-bold text-gray-900 mb-6">Our Story</h2>
               <div className="space-y-6 text-lg text-gray-700 leading-relaxed">
+                
                 <p>
-                  Too many Kenyans fall victim to real estate fraud, hidden costs, and bureaucratic delays. 
-                  BeaconTrust was founded to change that. We are a Kisumu-based private real estate firm 
-                  offering end-to-end services grounded in professionalism, integrity, and accountability.
+                  Kenya’s real estate sector is projected to grow from $733.4 billion in 2024 to $944.1 billion by 2029, driven by 
+                  rapid urbanization, a growing middle class, and high demand for affordable housing (exceeding 250,000 units annually). 
+                  With the government expressing unwavering commitment to continuous investment on social infrastructural projects 
+                  across the country including expanding major roads and highways as well as rail and water transport, 
+                  demand for land both for residential and commercial purposes is only expected to increase in the medium term. 
+                  <p>
+                  BeaconTrust was founded in 2025 to provide services that fit within this rapidly expanding sector. We are a 
+                  Kisumu-based private real estate firm offering end-to-end services grounded in professionalism, integrity, 
+                  and accountability.
+                  </p>
+            
                 </p>
-                <p>
-                  We serve clients ranging from first-time buyers to institutional investors — simplifying 
-                  the entire process from acquisition to management. Our approach eliminates the common 
-                  pitfalls that plague Kenya's property sector.
-                </p>
-                <p>
-                  Every service we provide is designed with one goal in mind: making real estate investment 
-                  simpler, safer, smarter, faster, and cheaper for our clients.
-                </p>
+            
               </div>
             </div>
             <div className="relative">

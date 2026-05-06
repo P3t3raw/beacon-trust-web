@@ -159,7 +159,7 @@ const Contact = () => {
                     <h3 className="text-lg font-semibold text-gray-900 mb-1">
                       Phone
                     </h3>
-                    <p className="text-gray-600">+254 721 744 035</p>
+                    <p className="text-gray-600">0759 192863 or 0727 933774 or 0721 744035</p>
                   </div>
                 </div>
 
@@ -184,8 +184,10 @@ const Contact = () => {
                       Office Location
                     </h3>
                     <div className="text-gray-600">
-                      <p>Evangelical Lutheran Church in Kenya,</p>
-                      <p>Off Ondiek Highway</p>
+                      <p>1st Floor, MURBS House,</p>
+                      <p>Off Oginga Odinga Street</p>
+
+                      <p>Opposite Swan Center </p>
                       <p>P.O. Box 19441 - 40123 KSM</p>
                       <p>Kisumu, Kenya</p>
                     </div>

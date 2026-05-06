@@ -61,6 +61,16 @@ const Services = () => {
       ]
     },
     {
+      icon: Home,
+      title: 'Post-Development & Property Management',
+      services: [
+        'Letting & Leasing Services',
+        'Rent Collection & Financial Management',
+        'Property Maintenance & Repairs',
+        'HOA Setup, Security & Utilities Management'
+      ]
+    },
+    {
       icon: Compass,
       title: 'Planning & Development',
       services: [
@@ -70,16 +80,6 @@ const Services = () => {
         'Construction & Contractor Supervision'
       ]
     },
-    {
-      icon: Home,
-      title: 'Post-Development & Property Management',
-      services: [
-        'Letting & Leasing Services',
-        'Rent Collection & Financial Management',
-        'Property Maintenance & Repairs',
-        'HOA Setup, Security & Utilities Management'
-      ]
-    }
   ];
 
   return (
