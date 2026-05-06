@@ -33,7 +33,10 @@ import { useScrollAnimation } from "../hooks/useScrollAnimation";
 // Import Kenyan images
 import kenyaResidential from "../assets/kenya-residential-1.jpg";
 import kenyaCommercial from "../assets/kenya-commercial-1.jpg";
+import kenyaTownhouse from "../assets/kenya-townhouse-1.jpg";
+import kenyaLandscape from "../assets/kenya-landscape-1.jpg";
 import kenyaVilla from "../assets/kenya-villa-1.jpg";
+import kenyaWildlife from "../assets/kenya-wildlife-1.jpg";
 import cbdkisumu1 from "../assets/cbdkisumu1.jpg";
 import chaberahbay from "../assets/chaberahbay.jpg";
 import nyawarakisian1 from "../assets/nyawarakisian1.jpg";
