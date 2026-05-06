@@ -243,7 +243,7 @@ const OngoingProjects = () => {
         ],
       },
     ],
-    plots: [
+  plots: [
       {
         id: 4,
         title: "Prime Residential Plot",
