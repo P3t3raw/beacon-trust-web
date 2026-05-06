@@ -53,133 +53,6 @@ const OngoingProjects = () => {
     useScrollAnimation();
   const { elementRef: listingsRef, isVisible: listingsVisible } =
     useScrollAnimation();
-
-  const projects = [
-    {
-      id: 1,
-      title: "Beacon Heights Residential",
-      location: "Kisumu East, Kenya",
-      type: "Residential Development",
-      status: "Under Construction",
-      completion: "December 2024",
-      units: 24,
-      bedrooms: "2-4",
-      bathrooms: "2-3",
-      area: "120-200 sqm",
-      price: "From KSh 4.5M",
-      image: kenyaResidential,
-      description:
-        "Modern residential apartments with stunning lake views and premium amenities.",
-      features: ["Swimming Pool", "Gym", "24/7 Security", "Parking", "Garden"],
-    },
-    {
-      id: 2,
-      title: "Lakeside Commercial Plaza",
-      location: "Milimani, Kisumu",
-      type: "Commercial Development",
-      status: "Planning Phase",
-      completion: "June 2025",
-      units: 12,
-      area: "50-150 sqm",
-      price: "From KSh 8M",
-      image: kenyaCommercial,
-      description:
-        "Prime commercial spaces perfect for retail and office use in the heart of Kisumu.",
-      features: [
-        "Prime Location",
-        "High Foot Traffic",
-        "Modern Design",
-        "Ample Parking",
-      ],
-    },
-    {
-      id: 3,
-      title: "Garden View Townhouses",
-      location: "Nyamasaria, Kisumu",
-      type: "Townhouse Development",
-      status: "Available Now",
-      completion: "Completed",
-      units: 8,
-      bedrooms: "3-4",
-      bathrooms: "3-4",
-      area: "180-250 sqm",
-      price: "From KSh 6.2M",
-      image: kenyaTownhouse,
-      description:
-        "Spacious townhouses with private gardens and modern finishes.",
-      features: [
-        "Private Garden",
-        "Garage",
-        "Modern Kitchen",
-        "Master En-suite",
-      ],
-    },
-    {
-      id: 4,
-      title: "Sunset Ridge Apartments",
-      location: "Tom Mboya Estate, Kisumu",
-      type: "Apartment Complex",
-      status: "Under Construction",
-      completion: "March 2025",
-      units: 36,
-      bedrooms: "1-3",
-      bathrooms: "1-2",
-      area: "65-140 sqm",
-      price: "From KSh 2.8M",
-      image: kenyaLandscape,
-      description:
-        "Affordable modern apartments with excellent connectivity to the city center.",
-      features: [
-        "Affordable Housing",
-        "Good Transport Links",
-        "Community Center",
-        "Playground",
-      ],
-    },
-    {
-      id: 5,
-      title: "Executive Villas Phase II",
-      location: "Riat Hills, Kisumu",
-      type: "Villa Development",
-      status: "Pre-Launch",
-      completion: "September 2025",
-      units: 6,
-      bedrooms: "4-5",
-      bathrooms: "4-5",
-      area: "300-400 sqm",
-      price: "From KSh 12M",
-      image: kenyaVilla,
-      description:
-        "Luxury villas with panoramic views and premium specifications.",
-      features: [
-        "Panoramic Views",
-        "Luxury Finishes",
-        "Large Compound",
-        "Staff Quarters",
-      ],
-    },
-    {
-      id: 6,
-      title: "Central Business Suites",
-      location: "CBD, Kisumu",
-      type: "Office Development",
-      status: "Under Construction",
-      completion: "August 2024",
-      units: 20,
-      area: "40-120 sqm",
-      price: "From KSh 5.5M",
-      image: kenyaWildlife,
-      description:
-        "Modern office suites in the central business district with premium amenities.",
-      features: [
-        "CBD Location",
-        "High-Speed Internet",
-        "Conference Facilities",
-        "Reception Services",
-      ],
-    },
-  ];
-
   const propertyListings = {
     plots: [
       {
@@ -345,6 +218,132 @@ const OngoingProjects = () => {
     ],
   };
 
+const projects = [
+    {
+      id: 1,
+      title: "Beacon Heights Residential",
+      location: "Kisumu East, Kenya",
+      type: "Residential Development",
+      status: "Under Construction",
+      completion: "December 2024",
+      units: 24,
+      bedrooms: "2-4",
+      bathrooms: "2-3",
+      area: "120-200 sqm",
+      price: "From KSh 4.5M",
+      image: kenyaResidential,
+      description:
+        "Modern residential apartments with stunning lake views and premium amenities.",
+      features: ["Swimming Pool", "Gym", "24/7 Security", "Parking", "Garden"],
+    },
+    {
+      id: 2,
+      title: "Lakeside Commercial Plaza",
+      location: "Milimani, Kisumu",
+      type: "Commercial Development",
+      status: "Planning Phase",
+      completion: "June 2025",
+      units: 12,
+      area: "50-150 sqm",
+      price: "From KSh 8M",
+      image: kenyaCommercial,
+      description:
+        "Prime commercial spaces perfect for retail and office use in the heart of Kisumu.",
+      features: [
+        "Prime Location",
+        "High Foot Traffic",
+        "Modern Design",
+        "Ample Parking",
+      ],
+    },
+    {
+      id: 3,
+      title: "Garden View Townhouses",
+      location: "Nyamasaria, Kisumu",
+      type: "Townhouse Development",
+      status: "Available Now",
+      completion: "Completed",
+      units: 8,
+      bedrooms: "3-4",
+      bathrooms: "3-4",
+      area: "180-250 sqm",
+      price: "From KSh 6.2M",
+      image: kenyaTownhouse,
+      description:
+        "Spacious townhouses with private gardens and modern finishes.",
+      features: [
+        "Private Garden",
+        "Garage",
+        "Modern Kitchen",
+        "Master En-suite",
+      ],
+    },
+    {
+      id: 4,
+      title: "Sunset Ridge Apartments",
+      location: "Tom Mboya Estate, Kisumu",
+      type: "Apartment Complex",
+      status: "Under Construction",
+      completion: "March 2025",
+      units: 36,
+      bedrooms: "1-3",
+      bathrooms: "1-2",
+      area: "65-140 sqm",
+      price: "From KSh 2.8M",
+      image: kenyaLandscape,
+      description:
+        "Affordable modern apartments with excellent connectivity to the city center.",
+      features: [
+        "Affordable Housing",
+        "Good Transport Links",
+        "Community Center",
+        "Playground",
+      ],
+    },
+    {
+      id: 5,
+      title: "Executive Villas Phase II",
+      location: "Riat Hills, Kisumu",
+      type: "Villa Development",
+      status: "Pre-Launch",
+      completion: "September 2025",
+      units: 6,
+      bedrooms: "4-5",
+      bathrooms: "4-5",
+      area: "300-400 sqm",
+      price: "From KSh 12M",
+      image: kenyaVilla,
+      description:
+        "Luxury villas with panoramic views and premium specifications.",
+      features: [
+        "Panoramic Views",
+        "Luxury Finishes",
+        "Large Compound",
+        "Staff Quarters",
+      ],
+    },
+    {
+      id: 6,
+      title: "Central Business Suites",
+      location: "CBD, Kisumu",
+      type: "Office Development",
+      status: "Under Construction",
+      completion: "August 2024",
+      units: 20,
+      area: "40-120 sqm",
+      price: "From KSh 5.5M",
+      image: kenyaWildlife,
+      description:
+        "Modern office suites in the central business district with premium amenities.",
+      features: [
+        "CBD Location",
+        "High-Speed Internet",
+        "Conference Facilities",
+        "Reception Services",
+      ],
+    },
+  ];
+	
   const getStatusColor = (status: string) => {
     switch (status) {
       case "Available Now":
