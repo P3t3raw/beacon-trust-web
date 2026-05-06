@@ -646,7 +646,6 @@ const OngoingProjects = () => {
         </div>
       </section>
 
-
       <Footer />
     </div>
   );
