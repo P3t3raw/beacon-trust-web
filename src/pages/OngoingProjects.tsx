@@ -36,10 +36,7 @@ import kenyaCommercial from "../assets/kenya-commercial-1.jpg";
 import kenyaTownhouse from "../assets/kenya-townhouse-1.jpg";
 import kenyaLandscape from "../assets/kenya-landscape-1.jpg";
 import kenyaVilla from "../assets/kenya-villa-1.jpg";
-import cbdkisumu1 from "../assets/cbdkisumu1.jpg";
-import chaberahbay from "../assets/chaberahbay.jpg";
-import nyawarakisian1 from "../assets/nyawarakisian1.jpg";
-import Ojolakisian1 from "../assets/Ojolakisian1.jpg"; 
+import kenyaWildlife from "../assets/kenya-wildlife-1.jpg";
 
 const OngoingProjects = () => {
   useSEO({
@@ -181,7 +178,91 @@ const OngoingProjects = () => {
   ];
 
   const propertyListings = {
-  
+    plots: [
+      {
+        id: 4,
+        title: "Prime Residential Plot",
+        location: "Nyawara-Kisian, Kisumu",
+        type: "Residential Plot",
+        status: "For Sale",
+        area: "0.07Ha - 0.1Ha",
+        price: "KSh 700,000 - 1.5M",
+        image: nyawarakisian1,
+        description:
+          "Affordable prime residential plot with ready title deed and access to utilities, Secure neighborhood and paved murram road perfect for family residential. 1km off Kisian junction - Bondo tarmac road, 15km from Kisumu CBD. Lipa pole pole accepted.",
+        features: [
+          "Title Deed",
+          "Water",
+          "Electricity",
+          "Good Access Road",
+          "Fenced",
+        ],
+      },
+	 
+	 houses: [
+      {
+        id: 1,
+        title: "Luxury Family Home",
+        location: "Milimani, Kisumu",
+        type: "Detached House",
+        status: "For Sale",
+        bedrooms: 4,
+        bathrooms: 3,
+        area: "250 sqm",
+        price: "KSh 8.5M",
+        image: kenyaVilla,
+        description:
+          "Beautiful 4-bedroom family home with modern amenities and spacious compound.",
+        features: [
+          "Private Garden",
+          "Garage",
+          "Modern Kitchen",
+          "Security System",
+          "Generator",
+        ],
+      },
+      {
+        id: 2,
+        title: "Modern Townhouse",
+        location: "Nyamasaria, Kisumu",
+        type: "Townhouse",
+        status: "For Sale",
+        bedrooms: 3,
+        bathrooms: 2,
+        area: "180 sqm",
+        price: "KSh 5.2M",
+        image: kenyaTownhouse,
+        description:
+          "Contemporary 3-bedroom townhouse in a gated community with excellent amenities.",
+        features: [
+          "Gated Community",
+          "Swimming Pool",
+          "Gym",
+          "Children's Play Area",
+        ],
+      },
+      {
+        id: 3,
+        title: "Executive Bungalow",
+        location: "Riat Hills, Kisumu",
+        type: "Bungalow",
+        status: "For Sale",
+        bedrooms: 5,
+        bathrooms: 4,
+        area: "320 sqm",
+        price: "KSh 12.8M",
+        image: kenyaResidential,
+        description:
+          "Spacious executive bungalow with panoramic lake views and premium finishes.",
+        features: [
+          "Lake View",
+          "Master En-suite",
+          "Study Room",
+          "Staff Quarters",
+          "CCTV",
+        ],
+      },
+    ],
     plots: [
       {
         id: 4,
@@ -256,70 +337,6 @@ const OngoingProjects = () => {
           "Water",
           "Electricity",
           "Good Access Road",
-        ],
-      },
-    ],
-     houses: [
-      {
-        id: 1,
-        title: "Luxury Family Home",
-        location: "Milimani, Kisumu",
-        type: "Detached House",
-        status: "For Sale",
-        bedrooms: 4,
-        bathrooms: 3,
-        area: "250 sqm",
-        price: "KSh 8.5M",
-        image: kenyaVilla,
-        description:
-          "Beautiful 4-bedroom family home with modern amenities and spacious compound.",
-        features: [
-          "Private Garden",
-          "Garage",
-          "Modern Kitchen",
-          "Security System",
-          "Generator",
-        ],
-      },
-      {
-        id: 2,
-        title: "Modern Townhouse",
-        location: "Nyamasaria, Kisumu",
-        type: "Townhouse",
-        status: "For Sale",
-        bedrooms: 3,
-        bathrooms: 2,
-        area: "180 sqm",
-        price: "KSh 5.2M",
-        image: kenyaTownhouse,
-        description:
-          "Contemporary 3-bedroom townhouse in a gated community with excellent amenities.",
-        features: [
-          "Gated Community",
-          "Swimming Pool",
-          "Gym",
-          "Children's Play Area",
-        ],
-      },
-      {
-        id: 3,
-        title: "Executive Bungalow",
-        location: "Riat Hills, Kisumu",
-        type: "Bungalow",
-        status: "For Sale",
-        bedrooms: 5,
-        bathrooms: 4,
-        area: "320 sqm",
-        price: "KSh 12.8M",
-        image: kenyaResidential,
-        description:
-          "Spacious executive bungalow with panoramic lake views and premium finishes.",
-        features: [
-          "Lake View",
-          "Master En-suite",
-          "Study Room",
-          "Staff Quarters",
-          "CCTV",
         ],
       },
     ],
