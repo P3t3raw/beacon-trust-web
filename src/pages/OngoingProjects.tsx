@@ -116,7 +116,6 @@ const OngoingProjects = () => {
           "CCTV",
         ],
       },
-    ],
   plots: [
       {
         id: 4,
