@@ -115,8 +115,7 @@ const OngoingProjects = () => {
           "Staff Quarters",
           "CCTV",
         ],
-  
-  plots: [
+    plots: [
       {
         id: 4,
         title: "Prime Residential Plot",
