@@ -54,29 +54,7 @@ const OngoingProjects = () => {
   const { elementRef: listingsRef, isVisible: listingsVisible } =
     useScrollAnimation();
 	
-  const propertyListings = {
-    plots: [
-      {
-        id: 4,
-        title: "Prime Residential Plot",
-        location: "Nyawara-Kisian, Kisumu",
-        type: "Residential Plot",
-        status: "For Sale",
-        area: "0.07Ha - 0.1Ha",
-        price: "KSh 700,000 - 1.5M",
-        image: nyawarakisian1,
-        description:
-          "Affordable prime residential plot with ready title deed and access to utilities, Secure neighborhood and paved murram road perfect for family residential. 1km off Kisian junction - Bondo tarmac road, 15km from Kisumu CBD. Lipa pole pole accepted.",
-        features: [
-          "Title Deed",
-          "Water",
-          "Electricity",
-          "Good Access Road",
-          "Fenced",
-        ],
-      },
-	  
-	const projects = [
+ const projects = [
     {
       id: 1,
       title: "Beacon Heights Residential",
@@ -202,9 +180,8 @@ const OngoingProjects = () => {
     },
   ];
 
-  
-	 
-	 houses: [
+  const propertyListings = {
+    houses: [
       {
         id: 1,
         title: "Luxury Family Home",
@@ -272,14 +249,14 @@ const OngoingProjects = () => {
       {
         id: 4,
         title: "Prime Residential Plot",
-        location: "Nyawara-Kisian, Kisumu",
+        location: "Tom Mboya Estate, Kisumu",
         type: "Residential Plot",
         status: "For Sale",
-        area: "0.07Ha - 0.1Ha",
-        price: "KSh 700,000 - 1.5M",
-        image: nyawarakisian1,
+        area: "0.5 Acres",
+        price: "KSh 3.2M",
+        image: kenyaLandscape,
         description:
-          "Affordable prime residential plot with ready title deed and access to utilities, Secure neighborhood and paved murram road perfect for family residential. 1km off Kisian junction - Bondo tarmac road, 15km from Kisumu CBD. Lipa pole pole accepted.",
+          "Well-located residential plot with ready title deed and access to utilities.",
         features: [
           "Title Deed",
           "Water",
@@ -290,17 +267,17 @@ const OngoingProjects = () => {
       },
       {
         id: 5,
-        title: "Prime Residential Plot",
-        location: "Ojola-Kisian, Kisumu",
-        type: "Residential Plot",
+        title: "Commercial Plot - CBD",
+        location: "CBD, Kisumu",
+        type: "Commercial Plot",
         status: "For Sale",
-        area: "0.045Ha - 0.07Ha",
-        price: "KSh 700,000 - 1.4M",
-        image: Ojolakisian1,
+        area: "0.25 Acres",
+        price: "KSh 15M",
+        image: kenyaCommercial,
         description:
-          "Affordable prime residential plot with ready title deed and access to utilities, Secure neighborhood and paved murram road perfect for family residential. 1km off Kisian junction - Bondo tarmac road, 15km from Kisumu CBD. Lipa pole pole accepted.",
+          "Strategic commercial plot in the heart of Kisumu's central business district.",
         features: [
-          "Secure Location",
+          "CBD Location",
           "High Traffic",
           "Mixed Use",
           "Investment Grade",
@@ -309,44 +286,25 @@ const OngoingProjects = () => {
       },
       {
         id: 6,
-        title: "Commercial/Residential Plot",
-        location: "Chabera, Homa Bay County",
-        type: "Commercial Plot",
+        title: "Agricultural Land",
+        location: "Ahero, Kisumu County",
+        type: "Agricultural Plot",
         status: "For Sale",
-        area: "3 Acres",
-        price: "KSh 1.5M",
-        image: chaberahbay,
+        area: "5 Acres",
+        price: "KSh 2.5M",
+        image: kenyaWildlife,
         description:
-          "Commercial/residential plot with ready titles for TRANSFER ONLY, locate along Kisumu-Kisii road, 500m from Chabera town and touching the main Highway. Ideal for Petrol Station, Hotel, Hospital or Warehouse.",
+          "Fertile agricultural land perfect for farming or future development.",
         features: [
-          "Secure Location",
-          "High Traffic",
-          "Mixed Use",
-          "Investment Grade",
-          "Prime Corner",
-        ],
-      },
-        {
-        id: 7,
-        title: "Prime Residential Plot",
-        location: "Milimani, Kisumu",
-        type: "Residential Plot",
-        status: "For Sale",
-        area: "0.07Ha",
-        price: "KSh 20M",
-        image: cbdkisumu1,
-        description:
-          "Prime residential plot, 0.07ha, Milimani, Kisumu, Opposite Impala Sanctuary, adjacent to KIWASCO. Asking price Ksh20m",
-        features: [
-          "Title Deed",
-          "Water",
-          "Electricity",
-          "Good Access Road",
+          "Fertile Soil",
+          "Irrigation Ready",
+          "Good Drainage",
+          "Access Road",
+          "Survey Done",
         ],
       },
     ],
   };
-
   const getStatusColor = (status: string) => {
     switch (status) {
       case "Available Now":
