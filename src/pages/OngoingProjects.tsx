@@ -51,6 +51,7 @@ const OngoingProjects = () => {
     useScrollAnimation();
   const { elementRef: listingsRef, isVisible: listingsVisible } =
     useScrollAnimation();
+  
   const propertyListings = {
     houses: [
       {
@@ -114,6 +115,7 @@ const OngoingProjects = () => {
           "Staff Quarters",
           "CCTV",
         ],
+      }
     plots: [
       {
         id: 4,
