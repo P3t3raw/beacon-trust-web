@@ -411,7 +411,7 @@ const Quote = () => {
             </div>
             <div className="bg-white/10 backdrop-blur-sm rounded-xl p-6 border border-white/20">
               <Send className="h-8 w-8 text-blue-400 mx-auto mb-4" />
-              <h3 className="text-xl font-semibold mb-2">WhatsApp</h3>
+              <h3 className="text-xl font-semibold mb-2">WhatsApp us</h3>
               <p className="text-blue-400 text-lg font-medium">
                 0759 192863
               </p>
