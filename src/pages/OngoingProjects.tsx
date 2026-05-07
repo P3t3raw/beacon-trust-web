@@ -63,7 +63,7 @@ const OngoingProjects = () => {
         location: "Nyawara-Kisian, Kisumu",
         type: "Residential Plot",
         status: "For Sale",
-        size: "0.05Ha - 0.1Ha",
+        area: "0.05Ha - 0.1Ha",
         price: "KSh 700,000 - 1.5M",
         image: nyawarakisian1,
         description:
@@ -82,7 +82,7 @@ const OngoingProjects = () => {
         location: "Nyawara-Kisian, Kisumu",
         type: "Residential Plot",
         status: "For Sale",
-        size: "0.045Ha - 0.07Ha",
+        area: "0.045Ha - 0.07Ha",
         price: "KSh 700,000 - 1.4M",
         image: Ojolakisian1,
         description:
@@ -101,7 +101,7 @@ const OngoingProjects = () => {
         location: "Chabera, Homa Bay County",
         type: "Commercial Plot",
         status: "For Sale",
-        size: "3 Acres",
+        area: "3 Acres",
         price: "KSh 1.5M per acre",
         image: chaberahbay,
         description:
@@ -120,7 +120,7 @@ const OngoingProjects = () => {
         location: "Milimani, Kisumu",
         type: "Residential Plot",
         status: "For Sale",
-        size: "0.07Ha",
+        area: "0.07Ha",
         price: "KSh 20M",
         image: cbdkisumu1,
         description:
@@ -142,7 +142,7 @@ const OngoingProjects = () => {
         status: "For Sale",
         bedrooms: 4,
         bathrooms: 3,
-        size: "250 sqm",
+        area: "250 sqm",
         price: "KSh 8.5M",
         image: kenyaVilla,
         description:
@@ -163,7 +163,7 @@ const OngoingProjects = () => {
         status: "For Sale",
         bedrooms: 3,
         bathrooms: 2,
-        size: "180 sqm",
+        area: "180 sqm",
         price: "KSh 5.2M",
         image: kenyaTownhouse,
         description:
@@ -183,7 +183,7 @@ const OngoingProjects = () => {
         status: "For Sale",
         bedrooms: 5,
         bathrooms: 4,
-        size: "320 sqm",
+        area: "320 sqm",
         price: "KSh 12.8M",
         image: kenyaResidential,
         description:
