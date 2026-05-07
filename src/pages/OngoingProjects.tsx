@@ -1,8 +1,7 @@
-@@ -1,654 +1,657 @@
 import React, { useState } from "react";
 import Navigation from "../components/Navigation";
 import Footer from "../components/Footer";
-import { useSEO } from '../hooks/useSEO';
+import { useSEO } from "../hooks/useSEO";
 import { Link } from "react-router-dom";
 import {
   Card,
