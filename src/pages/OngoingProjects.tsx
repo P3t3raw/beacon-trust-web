@@ -63,7 +63,7 @@ const OngoingProjects = () => {
         location: "Nyawara-Kisian, Kisumu",
         type: "Residential Plot",
         status: "For Sale",
-        size: "0.07Ha - 0.1Ha",
+        size: "0.05Ha - 0.1Ha",
         price: "KSh 700,000 - 1.5M",
         image: nyawarakisian1,
         description:
@@ -79,7 +79,7 @@ const OngoingProjects = () => {
       {
         id: 5,
         title: "Prime Residential Plot",
-        location: "Ojola-Kisian, Kisumu",
+        location: "Nyawara-Kisian, Kisumu",
         type: "Residential Plot",
         status: "For Sale",
         size: "0.045Ha - 0.07Ha",
