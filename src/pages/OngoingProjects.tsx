@@ -111,7 +111,7 @@ const OngoingProjects = () => {
           "Staff Quarters",
           "CCTV",
         ],
-      },
+      }
     plots: [
       {
         id: 4,
