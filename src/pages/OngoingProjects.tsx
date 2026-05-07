@@ -51,7 +51,6 @@ const OngoingProjects = () => {
     useScrollAnimation();
   const { elementRef: listingsRef, isVisible: listingsVisible } =
     useScrollAnimation();
-  
   const propertyListings = {
     houses: [
       {
