@@ -60,8 +60,8 @@ const Footer = () => {
               <div className="flex items-start space-x-2">
                 <MapPin className="h-4 w-4 text-green-400 mt-1 flex-shrink-0" />
                 <div className="text-sm sm:text-base text-gray-300">
-                  <p>Evangelical Lutheran Church in Kenya,</p>
-                  <p>Off Ondiek Highway</p>
+                  <p>1st Floor, MURBS House,</p>
+                  <p>off Oginga Odinga Street, Opposite Swan Center</p>
                   <p>P.O. Box 19441 - 40123 KSM</p>
                   <p>Kisumu, Kenya</p>
                 </div>
@@ -72,7 +72,7 @@ const Footer = () => {
 
         <div className="border-t border-gray-700 mt-6 sm:mt-8 pt-6 sm:pt-8 text-center">
           <p className="text-xs sm:text-sm text-gray-400">
-            © 2024 BeaconTrust. All rights reserved. | Integrity You Can Stand On.
+            © 2026 BeaconTrust. All rights reserved. | Integrity You Can Stand On.
           </p>
         </div>
       </div>
