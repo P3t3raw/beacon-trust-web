@@ -71,8 +71,7 @@ const OngoingProjects = () => {
           "Security System",
           "Generator",
         ],
-      },
-      {
+        {
         id: 2,
         title: "Modern Townhouse",
         location: "Nyamasaria, Kisumu",
@@ -91,7 +90,6 @@ const OngoingProjects = () => {
           "Gym",
           "Children's Play Area",
         ],
-      },
       {
         id: 3,
         title: "Executive Bungalow",
