@@ -90,6 +90,7 @@ const OngoingProjects = () => {
           "Gym",
           "Children's Play Area",
         ],
+        }
       {
         id: 3,
         title: "Executive Bungalow",
@@ -110,7 +111,7 @@ const OngoingProjects = () => {
           "Staff Quarters",
           "CCTV",
         ],
-      }
+      },
     plots: [
       {
         id: 4,
