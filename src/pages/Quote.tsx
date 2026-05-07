@@ -405,15 +405,15 @@ const Quote = () => {
               <Phone className="h-8 w-8 text-green-400 mx-auto mb-4" />
               <h3 className="text-xl font-semibold mb-2">Call Us Now</h3>
               <p className="text-green-400 text-lg font-medium">
-                +254 721 744 035
+                 0727 933774
               </p>
               <p className="text-gray-300 text-sm mt-2">Mon-Fri: 8AM-6PM</p>
             </div>
             <div className="bg-white/10 backdrop-blur-sm rounded-xl p-6 border border-white/20">
               <Send className="h-8 w-8 text-blue-400 mx-auto mb-4" />
-              <h3 className="text-xl font-semibold mb-2">Email Us</h3>
+              <h3 className="text-xl font-semibold mb-2">WhatsApp</h3>
               <p className="text-blue-400 text-lg font-medium">
-                contact@beacontrust.co.ke
+                0759 192863
               </p>
               <p className="text-gray-300 text-sm mt-2">
                 Response within 24 hours
