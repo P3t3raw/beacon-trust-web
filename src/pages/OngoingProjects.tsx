@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, from "react";
 import Navigation from "../components/Navigation";
 import Footer from "../components/Footer";
 import { useSEO } from '../hooks/useSEO';
@@ -23,7 +23,6 @@ import {
   Bed,
   Bath,
   Square,
-  Calendar,
   Phone,
   Home,
   Landmark,
@@ -40,6 +39,7 @@ import kenyaWildlife from "../assets/kenya-wildlife-1.jpg";
 import cbdkisumu1 from "../assets/cbdkisumu1.jpg";
 import chaberahbay from "../assets/chaberahbay.jpg";
 import nyawarakisian1 from "../assets/nyawarakisian1.jpg";
+import Ojolakisian1 from "../assets/Ojolakisian1.jpg";
 
 const OngoingProjects = () => {
   useSEO({
