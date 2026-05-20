@@ -191,22 +191,22 @@ const OngoingProjects = () => {
       {
         id: 1,
         title: "Luxury Family Home",
-        location: "Milimani, Kisumu",
+        location: "Kisumu Busia Highway",
         type: "Detached House",
         status: "For Sale",
-        bedrooms: 4,
+        bedrooms: 3,
         bathrooms: 3,
-        area: "250 sqm",
-        price: "KSh 8.5M",
+        area: "0.103Ha",
+        price: "KSh 10M",
         image: kenyaVilla,
         description:
-          "Beautiful 4-bedroom family home with modern amenities and spacious compound.",
+          "3 bedroom master ensuite, own compound, 0.103ha land, electricity in site, 15 minutes drive to Kisumu International airport, walking distance to Mudasa school, Behind Ogongo Primary school and 1.6km to Kisumu-Busia highway.  Direct transfer.",
         features: [
           "Private Garden",
           "Garage",
           "Modern Kitchen",
           "Security System",
-          "Generator",
+          "18000 litres capacity of rain water",
         ],
       },
       {
