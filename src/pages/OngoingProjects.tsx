@@ -40,6 +40,7 @@ import nyawarakisian1 from "../assets/nyawarakisian1.jpg";
 import Ojolakisian1 from "../assets/Ojolakisian1.jpg";
 import KisianJunction1 from "../assets/KisianJunction1.jpg";
 import Rabuor1 from "../assets/Rabuor1.jpg";
+import Kanyakwar1 from "../assets/Kanyakwar1.jpg";
 
 const OngoingProjects = () => {
   useSEO({
@@ -206,6 +207,24 @@ const OngoingProjects = () => {
         image: Rabuor1,
         description:
           "Prime Commercial Plot located along Kisumu- Nairobi highway, near Rabuor Town, ideal for commercial development. Ksh8.5 million asking. Direct transfer",
+        features: [
+          "Title Deed",
+          "Water",
+          "Electricity",
+          "Good Access Road",
+        ],
+      },
+      {
+        id: 10,
+        title: "Residential plots",
+        location: "Kiboswa, Kisumu",
+        type: "Commercial Plot",
+        status: "For Sale",
+        area: "0.09Ha - 0.13Ha",
+        price: "KSh 2.5M - 3M",
+        image: Kanyakwar1,
+        description:
+          "Residential plots in Kisumu Kanyakwar, 2km from Kiboswa centre, near Dago Kokore Secondary School. Nice view over Lake Victoria. Direct transfer",
         features: [
           "Title Deed",
           "Water",
