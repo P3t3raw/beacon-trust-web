@@ -202,7 +202,7 @@ const OngoingProjects = () => {
         description:
           "3 bedroom master ensuite, own compound, 0.103ha land, electricity in site, 5 minutes drive to Kisumu International airport, walking distance to Mudasa school, Behind Ogongo Primary school and 1.6km to Kisumu-Busia highway.  Direct transfer.",
         features: [
-          "18000 litres capacity of rain water",
+          "Water tank 18000 litres capacity for rain water",
           "Private Garden",
           "Garage",
           "Modern Kitchen",
