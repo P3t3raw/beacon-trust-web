@@ -205,7 +205,7 @@ const OngoingProjects = () => {
         price: "KSh 8.5M",
         image: Rabuor1,
         description:
-          "Kisumu- Nairobi highway, near Rabuor Town, ideal for commercial development. Ksh8.5million asking. Direct transfer",
+          "Prime Commercial Plot located along Kisumu- Nairobi highway, near Rabuor Town, ideal for commercial development. Ksh8.5 million asking. Direct transfer",
         features: [
           "Title Deed",
           "Water",
