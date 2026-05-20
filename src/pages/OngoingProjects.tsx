@@ -196,6 +196,24 @@ const OngoingProjects = () => {
           "Good Access Road",
         ],
       },
+      {
+        id: 8,
+        title: "Commercial/Residential Plot",
+        location: "Kisian, Kisumu",
+        type: "Residential Plot",
+        status: "For Sale",
+        area: "0.21Ha",
+        price: "KSh 6.5M",
+        image: KisianJunction1,
+        description:
+          "Prime commercial/residential plot, 0.21Ha, Kisian, Kisumu Opposite Archibishop Okoth Ojola High School, near Kisian Junction ideal for commercial development. Asking price Ksh6.5m",Direct Transfer
+        features: [
+          "Title Deed",
+          "Water",
+          "Electricity",
+          "Good Access Road",
+        ],
+      },
     ],
   };
 
