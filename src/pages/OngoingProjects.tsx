@@ -177,24 +177,6 @@ const OngoingProjects = () => {
           "Prime Corner",
         ],
       },
-        {
-        id: 7,
-        title: "Prime Residential Plot",
-        location: "Milimani, Kisumu",
-        type: "Residential Plot",
-        status: "For Sale",
-        area: "0.07Ha",
-        price: "KSh 20M",
-        image: cbdkisumu1,
-        description:
-          "Prime residential plot, 0.07ha, Milimani, Kisumu, Opposite Impala Sanctuary, adjacent to KIWASCO. Asking price Ksh20m",
-        features: [
-          "Title Deed",
-          "Water",
-          "Electricity",
-          "Good Access Road",
-        ],
-      },
        {
         id: 8,
         title: "Commercial/Residential Plot",
@@ -212,8 +194,8 @@ const OngoingProjects = () => {
           "Electricity",
           "Good Access Road",
         ],
-      },
-   {
+       },
+       {
         id: 9,
         title: "Commercial Plot",
         location: "Rabuor Town",
@@ -224,6 +206,24 @@ const OngoingProjects = () => {
         image: Rabuor1,
         description:
           "Kisumu- Nairobi highway, near Rabuor Town, ideal for commercial development. Ksh8.5million asking. Direct transfer",
+        features: [
+          "Title Deed",
+          "Water",
+          "Electricity",
+          "Good Access Road",
+        ],
+      },
+        {
+        id: 7,
+        title: "Prime Residential Plot",
+        location: "Milimani, Kisumu",
+        type: "Residential Plot",
+        status: "For Sale",
+        area: "0.07Ha",
+        price: "KSh 20M",
+        image: cbdkisumu1,
+        description:
+          "Prime residential plot, 0.07ha, Milimani, Kisumu, Opposite Impala Sanctuary, adjacent to KIWASCO. Asking price Ksh20m",
         features: [
           "Title Deed",
           "Water",
