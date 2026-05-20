@@ -187,7 +187,7 @@ const OngoingProjects = () => {
         price: "KSh 6.5M",
         image: KisianJunction1,
         description:
-          "Prime commercial/residential plot, 0.21Ha, Kisian, Kisumu Opposite Archibishop Okoth Ojola High School, near Kisian Junction ideal for commercial development. Asking price Ksh6.5M, Direct Transfer"
+          "Prime commercial/residential plot, 0.21Ha, Kisian, Kisumu Opposite Archibishop Okoth Ojola High School, near Kisian Junction ideal for commercial development. Asking price Ksh6.5M, Direct Transfer",
         features: [
           "Title Deed",
           "Water",
