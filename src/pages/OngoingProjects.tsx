@@ -32,16 +32,14 @@ import { useScrollAnimation } from "../hooks/useScrollAnimation";
 
 // Import Kenyan images
 import kenyaResidential from "../assets/kenya-residential-1.jpg";
-import kenyaCommercial from "../assets/kenya-commercial-1.jpg";
 import kenyaTownhouse from "../assets/kenya-townhouse-1.jpg";
-import kenyaLandscape from "../assets/kenya-landscape-1.jpg";
 import kenyaVilla from "../assets/kenya-villa-1.jpg";
-import kenyaWildlife from "../assets/kenya-wildlife-1.jpg";
 import cbdkisumu1 from "../assets/cbdkisumu1.jpg";
 import chaberahbay from "../assets/chaberahbay.jpg";
 import nyawarakisian1 from "../assets/nyawarakisian1.jpg";
 import Ojolakisian1 from "../assets/Ojolakisian1.jpg";
 import KisianJunction1 from "../assets/KisianJunction1.jpg";
+import Rabuor1 from "../assets/Rabuor1.jpg";
 
 const OngoingProjects = () => {
   useSEO({
@@ -197,7 +195,7 @@ const OngoingProjects = () => {
           "Good Access Road",
         ],
       },
-      {
+       {
         id: 8,
         title: "Commercial/Residential Plot",
         location: "Kisian, Kisumu",
@@ -207,7 +205,7 @@ const OngoingProjects = () => {
         price: "KSh 6.5M",
         image: KisianJunction1,
         description:
-          "Prime commercial/residential plot, 0.21Ha, Kisian, Kisumu Opposite Archibishop Okoth Ojola High School, near Kisian Junction ideal for commercial development. Asking price Ksh6.5m",Direct Transfer
+          "Prime commercial/residential plot, 0.21Ha, Kisian, Kisumu Opposite Archibishop Okoth Ojola High School, near Kisian Junction ideal for commercial development. Asking price Ksh6.5M, Direct Transfer"
         features: [
           "Title Deed",
           "Water",
@@ -215,7 +213,25 @@ const OngoingProjects = () => {
           "Good Access Road",
         ],
       },
-    ],
+   {
+        id: 9,
+        title: "Commercial Plot",
+        location: "Rabuor Town",
+        type: "Commercial Plot",
+        status: "For Sale",
+        area: "0.29Ha",
+        price: "KSh 8.5M",
+        image: Rabuor1,
+        description:
+          "Kisumu- Nairobi highway, near Rabuor Town, ideal for commercial development. Ksh8.5million asking. Direct transfer",
+        features: [
+          "Title Deed",
+          "Water",
+          "Electricity",
+          "Good Access Road",
+        ],
+      },
+     ],
   };
 
   const getStatusColor = (status: string) => {
